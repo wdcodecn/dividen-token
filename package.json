@@ -1,0 +1,35 @@
+{
+  "name": "dividen-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "remix": "remixd -s ./ --remix-ide https://remix.ethereum.org"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2",
+    "@openzeppelin/truffle-upgrades": "^1.15.0",
+    "@remix-project/remixd": "^0.5.7",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "hardhat": "^2.9.2",
+    "truffle-plugin-verify": "^0.5.24"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdcodecn/dividen-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdcodecn/dividen-token/issues"
+  },
+  "homepage": "https://github.com/wdcodecn/dividen-token#readme"
+}
